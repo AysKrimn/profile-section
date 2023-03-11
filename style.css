@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a { color: green; text-decoration: none;}
+
+body {
+    font-family: sans-serif;
+}
+
+.generic {
+    background: url('https://warmerise.com/application/themes/gamestream/images/title_bg.png?c=265') no-repeat right center #1B2234;
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;   
+    padding:6px;
+    margin-top: 1rem;
+}
+
+
+.flex-container {
+
+    display: flex;
+}
+
+
+.info {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #626262;
+    
+}
+
+.info {
+
+    border: 1px solid #d7bbbb;
+}
+
+.badge-info {
+
+    background-color: #dfdfdf;;
+}
+
+.edit-btn { margin-top: 1rem;}
+.edit-btn button {
+
+    background-image: url("https://warmerise.com/application/modules/User/externals/images/edit.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border: 1px solid;
+    color: #82858A;
+    display: block;
+    padding: 9px;
+    background-color: #313338;
+    width: 100%;
+}
+
+
+.banner { opacity: 0.8; cursor: pointer;}
+
+.banner img {
+    width: 100%;
+    max-height: 220px;
+}
+.stat-card {
+    margin-left: 1rem;
+}
+
+.datagrid {
+
+    font: normal 14px/150% Geneva, Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: rgb(42 42 42 / 50%);
+    margin-top: 1rem;
+}
+
+tbody tr td:nth-child(1) {
+
+    border-left: none;
+    color: #fff;
+}
+.datagrid table td {
+
+    font-size: 14px;
+    padding: 3px 30px;
+}
+
+.datagrid td {
+
+    border: 0;
+    border-bottom: 1px solid #A5AAAD;
+    border-left: 1px solid #A5AAAD;
+    color: #FFAA00;
+}
+
+div td {
+
+    font-size: 10pt;
+    color: #313338;
+    text-align: left;
+}
+
+.row-title {
+
+    color: #fff;
+    border-left: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#buy {
+
+    background-color: green;
+    padding: 7px;
+    margin-left: 1rem;
+}
+
+.options button {
+
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+}
+.options :nth-child(1) {
+
+    background: #1B2234;
+    color: #E2E2E4;
+    position: relative;
+}
+
+.options button:not(:nth-child(1)) {
+
+    color: gray;
+}
+
+thead tr th:nth-child(1) {
+
+    width: 170px; 
+    color: white; 
+    padding-left: 20px;
+    text-align: start;
+}
